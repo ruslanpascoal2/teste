@@ -1,0 +1,25 @@
+.sidebarHeader {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  z-index: 1000;
+}
+
+.sidebarHeaderLink{
+    font-weight: 200;
+    font-size: 14px;
+   &:hover{
+       text-decoration: underline;
+   } 
+}
+
+.sidebarFooter{
+  padding: 0 1rem;
+  color: white;
+  font-size: 18px;
+  small{
+    font-size: 12px;
+    font-weight: 200;
+  }
+}

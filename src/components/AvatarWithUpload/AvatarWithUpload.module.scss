@@ -1,0 +1,17 @@
+@import "../../styles//variables.scss";
+
+.avatarWithUpload{
+    position: relative;
+    max-width: fit-content;
+}
+
+.badge{
+    position: absolute;
+    padding: .5rem;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    &:hover{
+        background-color: lighten($color: $primary, $amount: 10);
+    }
+}

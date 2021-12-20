@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.toast {
+  background: #212429;
+  box-shadow: 0px 6px 12px rgba(106, 115, 129, 0.16),
+    0px 3px 8px rgba(87, 102, 117, 0.06);
+  border-radius: 4px;
+  color: $white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.message{
+    color: $white;
+}
+
+.error{
+    color: $danger !important;
+}
+.success{
+    color: $success !important;
+}
+.alert{
+    color: #4E9ECB !important;
+}

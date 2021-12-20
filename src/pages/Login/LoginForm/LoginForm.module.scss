@@ -1,0 +1,11 @@
+@import '../../../styles/variables.scss';
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        color: $primary;
+        font-weight: bold;
+    }
+}

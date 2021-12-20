@@ -1,0 +1,1 @@
+export const CAMPO_OBRIGATORIO = "Campo obrigatório."

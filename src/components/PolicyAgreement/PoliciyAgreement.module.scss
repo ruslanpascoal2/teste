@@ -1,0 +1,12 @@
+.textContainer{
+    max-height: 600px;
+    overflow-y: auto;
+    div{
+        line-height: 1.8;
+        text-align: justify;
+    }
+}
+
+.actions{
+    align-self: flex-end;
+}

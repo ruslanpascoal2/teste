@@ -1,0 +1,5 @@
+@import "../../styles/variables.scss";
+
+.pageLayout{
+    padding-top: calc(#{$navbar-height} * 1.6);
+}

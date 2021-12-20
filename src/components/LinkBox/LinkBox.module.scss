@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.linkBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  color: $primary;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f1f1f136;
+    text-decoration: underline;
+  }
+}

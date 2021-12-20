@@ -1,0 +1,29 @@
+.img{
+    &.sm{
+        height: 45px;
+    }
+    
+    &.md{
+        height: 100px;
+    }
+    
+    &.lg{
+        height: 200px;
+    }
+}
+
+
+.text{
+    &.sm{
+        height: 10px;
+    }
+    
+    &.md{
+        height: 40px;
+    }
+    
+    &.lg{
+        height: 60px;
+    }
+}
+
